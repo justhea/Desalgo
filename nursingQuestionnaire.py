@@ -1,5 +1,9 @@
+
+import textwrap
+import time, threading
+import sys,time,random
 def Nursing():
-    print("Nursing")
+    print("Nursing Exam")
     nursingScore = 0
     #nursQ1
     print("1. The registered nurse planning to delegate tasks to unlicensed assistive personnel (UAP). Which of the following task could the registered nurse safely assigned to a UAP? \nA.) Monitor the I&O of a comatose toddler client with salicylate poisoning \nB.) Monitor the I&O of a comatose toddler client with salicylate poisoning \nC.) check the IV of a preschooler with Kawasaki disease \nD.) Give an oatmeal bath to an infant with eczema")

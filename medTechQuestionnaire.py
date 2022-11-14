@@ -1,6 +1,7 @@
+
 def MedicalTechnology():
     medTechScore = 0
-    print("Medical Technology")
+    print("Medical Technology Exam")
     
     #medTechQ1
     print("1. Other name for HCV RNA? \nA.) Viral clade \nB.) Viral load \nC.) Surface antigen \nD.) Core antigen")

@@ -1,5 +1,9 @@
+
+import textwrap
+import time, threading
+import sys,time,random
 def Psychology():
-    print("Psychology")
+    print("Psychology Exam")
     psychologyScore = 0
     #psychQ1
     print("1. Forming a hypothesis is the ___ step to the scientific method. \nA.) final \nB.) second \nC.) third \nD.) first")

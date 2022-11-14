@@ -1,5 +1,7 @@
+
+
 def Pharmacology():
-    print("Pharmacology")
+    print("Pharmacology Exam")
     pharmacologyScore = 0
     #pharmaQ1
     print("1. Group of elements which is the considered to be the most reactive of all metallic elements: \nA.) Group O \nB.) Group IA \nC.) Group IB \nD.) Group II")
