@@ -100,5 +100,4 @@ def Pharmacology():
             elif pharA5 == "A" or pharA5 == "a" or pharA5 == "D" or pharA5 == "d" or pharA5== "C" or pharA5 == "c":
                 print("Incorrect Answer. \n")
                 break
-    print(pharmacologyScore)
-Pharmacology()
+    return pharmacologyScore

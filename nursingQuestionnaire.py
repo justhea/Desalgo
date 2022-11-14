@@ -101,4 +101,3 @@ def Nursing():
                 print("Incorrect Answer. \n")
                 break
     return nursingScore
-Nursing()

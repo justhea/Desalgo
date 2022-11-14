@@ -102,6 +102,3 @@ def MedicalTechnology():
                 print("Incorrect Answer. \n")
                 break
     return medTechScore
-MedicalTechnology()
-
-#shdjigysdgjishdgios
