@@ -2,17 +2,20 @@ from psychologyQuestionnaire import Psychology
 from nursingQuestionnaire import Nursing
 from pharmacologyQuestionnaire import Pharmacology
 from medTechQuestionnaire import MedicalTechnology
+from mainUI import userInterface
 import time
+userInterface()
+
 basisScore = []
 sortedScore = []
-basisScore.append(Psychology())
+basisScore.append(Pharmacology())
 basisScore.append(Nursing())
 basisScore.append(MedicalTechnology())
 basisScore.append(Pharmacology())
 
-for i in sortedScore:
+for i in basisScore:
     sortedScore.append(i)
-print(basisScore)
+
 
 courses = ["Pyschology", "Nursing", "Medical Technology", "Pharmacy"]
 
