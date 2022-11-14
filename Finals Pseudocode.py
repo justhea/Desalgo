@@ -48,13 +48,13 @@ def linearSearch(basisScore, n, y):
         if (basisScore[i] == y):
             return i
     return -1
-print(sortedScore)
 topScore = None
 for score, course in sortedScore:
     topScore = topScore or score
     if score == topScore:
-        print(f"Your most recommended {course = } with a {score = }.")
+        printSlow(f"Your most recommended {course = } with a {score = }.")
     else:
-        print(f"Your next recommended {course = } with a score of {score = } ")
-
+        printSlow(f"Your next recommended {course = } with a score of {score = } ")
+time.sleep(0.5)
+printSlow("Exiting Program")
 exit()

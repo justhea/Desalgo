@@ -30,7 +30,7 @@ def userInterface():
          print("1. Take exam")
          print("2. About application")
          print("3. Credits")
-         print("4. Exits")
+         print("4. Exit")
          userChoice = int(input())
          if userChoice == 1:
              print("Goodluck!")
@@ -46,12 +46,14 @@ def userInterface():
             printSlow("Returning to main menu")
             userChoice = 0
          elif userChoice == 3:
+            
             printSlow("Alexandra Paculan - Lead Documentation")
             printSlow("Carl Justin Bustamante - Lead Programmer")
             printSlow("Jethro Rae Garcia - Leader")
             printSlow("Yuri Laigo - Lead Programmer")
             time.sleep(0.5)
             printSlow("Returning to Main Menu")
+            userChoice = 0
          elif userChoice == 4:
             printSlow("Goodbye!")
             exit()
