@@ -1,11 +1,12 @@
 def Psychology():
     print("Psychology")
-
+    psychologyScore = 0
     #psychQ1
     print("1. Forming a hypothesis is the ___ step to the scientific method. \nA.) final \nB.) second \nC.) third \nD.) first")
     psychA1 = input("Answer: ")
     if psychA1 == "D" or psychA1 == "d":
         print("Correct Answer! \n")
+        psychologyScore += 1
     elif psychA1 == "A" or psychA1 == "a" or psychA1 == "B" or psychA1 == "b" or psychA1 == "C" or psychA1 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -14,6 +15,7 @@ def Psychology():
             psychA1 = input("Answer: ")
             if psychA1 == "D" or psychA1 == "d":
                 print("Correct Answer! \n")
+                psychologyScore += 1
                 break
             elif psychA1 == "A" or psychA1 == "a" or psychA1 == "B" or psychA1 == "b" or psychA1 == "C" or psychA1 == "c":
                 print("Incorrect Answer. \n")
@@ -24,6 +26,7 @@ def Psychology():
     psychA2 = input("Answer: ")
     if psychA2 == "C" or psychA2 == "c":
         print("Correct Answer! \n")
+        psychologyScore += 1
     elif psychA2 == "A" or psychA2 == "a" or psychA2 == "B" or psychA2 == "b" or psychA2 == "D" or psychA2 == "d":
         print("Incorrect Answer. \n")
     else:
@@ -32,6 +35,7 @@ def Psychology():
             psychA2 = input("Answer: ")
             if psychA2 == "C" or psychA2 == "c":
                 print("Correct Answer! \n")
+                psychologyScore += 1
                 break
             elif psychA2 == "A" or psychA2 == "a" or psychA2 == "B" or psychA2 == "b" or psychA2 == "D" or psychA2 == "d":
                 print("Incorrect Answer. \n")
@@ -42,6 +46,7 @@ def Psychology():
     psychA3 = input("Answer: ")
     if psychA3 == "B" or psychA3 == "b":
         print("Correct Answer! \n")
+        psychologyScore += 1
     elif psychA3 == "A" or psychA3 == "a" or psychA3 == "C" or psychA3 == "c" or psychA3 == "D" or psychA3 == "d":
         print("Incorrect Answer. \n")
     else:
@@ -50,6 +55,7 @@ def Psychology():
             psychA3 = input("Answer: ")
             if psychA3 == "B" or psychA3 == "b":
                 print("Correct Answer! \n")
+                psychologyScore += 1
                 break
             elif psychA3 == "A" or psychA3 == "a" or psychA3 == "C" or psychA3 == "c" or psychA3 == "D" or psychA3 == "d":
                 print("Incorrect Answer. \n")
@@ -60,6 +66,7 @@ def Psychology():
     psychA4 = input("Answer: ")
     if psychA4 == "D" or psychA4 == "d":
         print("Correct Answer! \n")
+        psychologyScore += 1
     elif psychA4 == "A" or psychA4 == "a" or psychA4 == "B" or psychA4 == "b" or psychA4 == "C" or psychA4 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -68,6 +75,7 @@ def Psychology():
             psychA4 = input("Answer: ")
             if psychA4 == "D" or psychA4 == "d":
                 print("Correct Answer! \n")
+                psychologyScore += 1
                 break
             elif psychA4 == "A" or psychA4 == "a" or psychA4 == "B" or psychA4 == "b" or psychA4 == "C" or psychA4 == "c":
                 print("Incorrect Answer. \n")
@@ -78,6 +86,7 @@ def Psychology():
     psychA5 = input("Answer: ")
     if psychA5 == "C" or psychA5 == "c":
         print("Correct Answer! \n")
+        psychologyScore += 1
     elif psychA5 == "A" or psychA5 == "a" or psychA5 == "B" or psychA5 == "b" or psychA5 == "D" or psychA5 == "d":
         print("Incorrect Answer. \n")
     else:
@@ -86,7 +95,9 @@ def Psychology():
             psychA5 = input("Answer: ")
             if psychA5 == "C" or psychA5 == "c":
                 print("Correct Answer! \n")
+                psychologyScore += 1
                 break
             elif psychA5 == "A" or psychA5 == "a" or psychA5 == "B" or psychA5 == "b" or psychA5 == "D" or psychA5 == "d":
                 print("Incorrect Answer. \n")
                 break
+    return psychologyScore

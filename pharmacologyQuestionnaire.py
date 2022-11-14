@@ -1,11 +1,12 @@
 def Pharmacology():
     print("Pharmacology")
-
+    pharmacologyScore = 0
     #pharmaQ1
     print("1. Group of elements which is the considered to be the most reactive of all metallic elements: \nA.) Group O \nB.) Group IA \nC.) Group IB \nD.) Group II")
     pharA1 = input("Answer: ")
     if pharA1 == "B" or pharA1 == "b":
         print("Correct Answer! \n")
+        pharmacologyScore += 1
     elif pharA1 == "A" or pharA1 == "a" or pharA1 == "D" or pharA1 == "d" or pharA1 == "C" or pharA1 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -14,6 +15,7 @@ def Pharmacology():
             pharA1 = input("Answer: ")
             if pharA1 == "B" or pharA1 == "b":
                 print("Correct Answer! \n")
+                pharmacologyScore += 1
                 break
             elif pharA1 == "A" or pharA1 == "a" or pharA1 == "D" or pharA1 == "d" or pharA1 == "C" or pharA1 == "c":
                 print("Incorrect Answer. \n")
@@ -24,6 +26,7 @@ def Pharmacology():
     pharA2 = input("Answer: ")
     if pharA2 == "C" or pharA2 == "c":
         print("Correct Answer! \n")
+        pharmacologyScore += 1
     elif pharA2 == "A" or pharA2 == "a" or pharA2 == "D" or pharA2 == "d" or pharA2 == "B" or pharA2 == "b":
         print("Incorrect Answer. \n")
     else:
@@ -32,6 +35,7 @@ def Pharmacology():
             pharA2 = input("Answer: ")
             if pharA2 == "C" or pharA2 == "c":
                 print("Correct Answer! \n")
+                pharmacologyScore += 1
                 break
             elif pharA2 == "A" or pharA2 == "a" or pharA2 == "D" or pharA2 == "d" or pharA2 == "B" or pharA2 == "b":
                 print("Incorrect Answer. \n")
@@ -42,6 +46,7 @@ def Pharmacology():
     pharA3 = input("Answer: ")
     if pharA3 == "C" or pharA3 == "c":
         print("Correct Answer! \n")
+        pharmacologyScore += 1
     elif pharA3 == "A" or pharA3 == "a" or pharA3 == "B" or pharA3 == "b" or pharA3 == "D" or pharA3== "d":
         print("Incorrect Answer. \n")
     else:
@@ -50,6 +55,7 @@ def Pharmacology():
             pharA3 = input("Answer: ")
             if pharA3 == "C" or pharA3 == "c":
                 print("Correct Answer! \n")
+                pharmacologyScore += 1
                 break
             elif pharA3 == "A" or pharA3 == "a" or pharA3 == "B" or pharA3 == "b" or pharA3 == "D" or pharA3 == "d":
                 print("Incorrect Answer. \n")
@@ -60,6 +66,7 @@ def Pharmacology():
     pharA4 = input("Answer: ")
     if pharA4 == "B" or pharA4 == "b":
         print("Correct Answer! \n")
+        pharmacologyScore += 1
     elif pharA4 == "D" or pharA4 == "d" or pharA4 == "A" or pharA4 == "a" or pharA4 == "C" or pharA4 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -68,6 +75,7 @@ def Pharmacology():
             pharA4 = input("Answer: ")
             if pharA4 == "B" or pharA4 == "b":
                 print("Correct Answer! \n")
+                pharmacologyScore += 1
                 break
             elif pharA4 == "D" or pharA4 == "d" or pharA4 == "A" or pharA4 == "a" or pharA4 == "C" or pharA4 == "c":
                 print("Incorrect Answer. \n")
@@ -78,6 +86,7 @@ def Pharmacology():
     pharA5 = input("Answer: ")
     if pharA5 == "B" or pharA5 == "b":
         print("Correct Answer! \n")
+        pharmacologyScore += 1
     elif pharA5== "A" or pharA5 == "a" or pharA5 == "D" or pharA5 == "d" or pharA5 == "C" or pharA5 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -86,7 +95,10 @@ def Pharmacology():
             pharA5 = input("Answer: ")
             if pharA5 == "B" or pharA5 == "b":
                 print("Correct Answer! \n")
+                pharmacologyScore += 1
                 break
             elif pharA5 == "A" or pharA5 == "a" or pharA5 == "D" or pharA5 == "d" or pharA5== "C" or pharA5 == "c":
                 print("Incorrect Answer. \n")
                 break
+    print(pharmacologyScore)
+Pharmacology()

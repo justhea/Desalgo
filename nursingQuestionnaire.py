@@ -1,12 +1,12 @@
 def Nursing():
     print("Nursing")
-    scoreCounter1 = 0
+    nursingScore = 0
     #nursQ1
     print("1. The registered nurse planning to delegate tasks to unlicensed assistive personnel (UAP). Which of the following task could the registered nurse safely assigned to a UAP? \nA.) Monitor the I&O of a comatose toddler client with salicylate poisoning \nB.) Monitor the I&O of a comatose toddler client with salicylate poisoning \nC.) check the IV of a preschooler with Kawasaki disease \nD.) Give an oatmeal bath to an infant with eczema")
     nursA1 = input("Answer: ")
     if nursA1 == "D" or nursA1 == "d":
         print("Correct Answer! \n")
-        scoreCounter1 + 1 
+        nursingScore += 1 
     elif nursA1 == "A" or nursA1 == "a" or nursA1 == "B" or nursA1 == "b" or nursA1 == "C" or nursA1 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -15,6 +15,7 @@ def Nursing():
             nursA1 = input("Answer: ")
             if nursA1 == "D" or nursA1 == "d":
                 print("Correct Answer! \n")
+                nursingScore += 1 
                 break
             elif nursA1 == "A" or nursA1 == "a" or nursA1 == "B" or nursA1 == "b" or nursA1 == "C" or nursA1 == "c":
                 print("Incorrect Answer. \n")
@@ -25,7 +26,7 @@ def Nursing():
     nursA2 = input("Answer: ")
     if nursA2 == "B" or nursA2 == "b":
         print("Correct Answer! \n")
-        scoreCounter1 + 1 
+        nursingScore += 1 
     elif nursA2 == "A" or nursA2 == "a" or nursA2 == "D" or nursA2 == "d" or nursA2 == "C" or nursA2 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -34,6 +35,7 @@ def Nursing():
             nursA2 = input("Answer: ")
             if nursA2 == "B" or nursA2 == "b":
                 print("Correct Answer! \n")
+                nursingScore += 1 
                 break
             elif nursA2 == "A" or nursA2 == "a" or nursA2 == "D" or nursA2 == "d" or nursA2== "C" or nursA2 == "c":
                 print("Incorrect Answer. \n")
@@ -44,7 +46,7 @@ def Nursing():
     nursA3 = input("Answer: ")
     if nursA3 == "C" or nursA3 == "c":
         print("Correct Answer! \n")
-        scoreCounter1 + 1 
+        nursingScore += 1 
     elif nursA3 == "A" or nursA3 == "a" or nursA3 == "B" or nursA3 == "b" or nursA3 == "D" or nursA3== "d":
         print("Incorrect Answer. \n")
     else:
@@ -53,6 +55,7 @@ def Nursing():
             nursA3 = input("Answer: ")
             if nursA3 == "C" or nursA3 == "c":
                 print("Correct Answer! \n")
+                nursingScore += 1 
                 break
             elif nursA3 == "A" or nursA3 == "a" or nursA3 == "B" or nursA3 == "b" or nursA3 == "D" or nursA3 == "d":
                 print("Incorrect Answer. \n")
@@ -63,7 +66,7 @@ def Nursing():
     nursA4 = input("Answer: ")
     if nursA4 == "A" or nursA4 == "a":
         print("Correct Answer! \n")
-        scoreCounter1 + 1 
+        nursingScore += 1 
     elif nursA4 == "D" or nursA4 == "d" or nursA4 == "B" or nursA4 == "b" or nursA4 == "C" or nursA4 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -72,6 +75,7 @@ def Nursing():
             nursA4 = input("Answer: ")
             if nursA4 == "A" or nursA4 == "a":
                 print("Correct Answer! \n")
+                nursingScore += 1 
                 break
             elif nursA4 == "D" or nursA4 == "d" or nursA4 == "B" or nursA4 == "b" or nursA4 == "C" or nursA4 == "c":
                 print("Incorrect Answer. \n")
@@ -82,7 +86,7 @@ def Nursing():
     nursA5 = input("Answer: ")
     if nursA5 == "D" or nursA5 == "d":
         print("Correct Answer! \n")
-        scoreCounter1 + 1 
+        nursingScore += 1 
     elif nursA5 == "A" or nursA5 == "a" or nursA5 == "B" or nursA5 == "b" or nursA5 == "C" or nursA5 == "c":
         print("Incorrect Answer. \n")
     else:
@@ -91,9 +95,10 @@ def Nursing():
             nursA5 = input("Answer: ")
             if nursA5 == "D" or nursA5 == "d":
                 print("Correct Answer! \n")
+                nursingScore += 1 
                 break
             elif nursA5 == "A" or nursA5 == "a" or nursA5 == "B" or nursA5 == "b" or nursA5 == "C" or nursA5 == "c":
                 print("Incorrect Answer. \n")
                 break
-    print(scoreCounter1)
+    return nursingScore
 Nursing()

@@ -101,7 +101,7 @@ def MedicalTechnology():
             elif medTechA5 == "A" or medTechA5 == "a" or medTechA5 == "B" or medTechA5 == "b" or medTechA5 == "D" or medTechA5 == "d":
                 print("Incorrect Answer. \n")
                 break
-    print(medTechScore)
+    return medTechScore
 MedicalTechnology()
 
 #shdjigysdgjishdgios
