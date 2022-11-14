@@ -39,7 +39,7 @@ def userInterface():
             printSlow("About Application")
             time.sleep(1)
             printSlow("The application is modeled after the national career assessment examination of the")
-            printSlow("philippines given to highschool students. This is an 20 question multiple choice ")
+            printSlow("Philippines given to highschool students. This is a 20 question multiple choice ")
             printSlow("examination meant to evaluate a suitable course based on the user's performance")
             printSlow("and knowledge in the specific courses")
             time.sleep(0.5)
