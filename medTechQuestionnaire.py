@@ -103,5 +103,5 @@ def MedicalTechnology():
                 break
     print(medTechScore)
 MedicalTechnology()
-         
 
+#shdjigysdgjishdgios
