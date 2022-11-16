@@ -12,7 +12,7 @@ import sys,time,random
 
 #import functions from questionnaires and ui
 from medicalQuestionnaires import Pharmacology, Nursing, MedicalTechnology, Psychology
-from mainUI import userInterface
+from mainUI import userInterface, printSlow, slowPrint
 
 #Start main program
 userInterface()

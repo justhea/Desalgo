@@ -3,7 +3,7 @@ import textwrap
 import time, threading
 import sys,time,random
 
-
+#Print slow stuff
 def printSlow(text):
     for line in textwrap.wrap(text,120):
         slowPrint(line)
@@ -16,19 +16,27 @@ def slowPrint(str):
         sys.stdout.flush()
         time.sleep(0.03)
 
+#Main UI of the program
 def userInterface():
+
+    #Print Opening 
     print("=====================================")
     printSlow("Medical Specification Assessment Exam")
     print("=====================================")
     print("")
-    userChoice = 0
-    while userChoice == 0:
+
+    #While loop if user is not picking from list
+    userChoice = False #Counter
+    while userChoice == False: 
+
+        #Reprint menu while user is still not done
          printSlow("What would you like to do?")
          time.sleep(0.5)
          print("1. Take exam")
          print("2. About application")
          print("3. Credits")
          print("4. Exit")
+
          userChoice = int(input())
          if userChoice == 1:
              print("Goodluck!")
@@ -42,7 +50,7 @@ def userInterface():
             printSlow("and knowledge in the specific courses")
             time.sleep(0.5)
             printSlow("Returning to main menu")
-            userChoice = 0
+            userChoice = False
          elif userChoice == 3:
             
             printSlow("Alexandra Paculan - Lead Documentation")
@@ -51,9 +59,10 @@ def userInterface():
             printSlow("Yuri Laigo - Lead Programmer")
             time.sleep(0.5)
             printSlow("Returning to Main Menu")
-            userChoice = 0
+            userChoice = False
          elif userChoice == 4:
             printSlow("Goodbye!")
             exit()
          else:
             print("Enter again")
+userInterface()
