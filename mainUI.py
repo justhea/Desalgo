@@ -37,10 +37,15 @@ def userInterface():
          print("3. Credits")
          print("4. Exit")
 
+         #take user input for while loop
          userChoice = int(input())
+         
+         #Take exam print the questionnaire
          if userChoice == 1:
              print("Goodluck!")
              time.sleep(0.5)
+         
+         #Print The about application
          elif userChoice == 2:
             printSlow("About Application")
             time.sleep(1)
@@ -51,8 +56,9 @@ def userInterface():
             time.sleep(0.5)
             printSlow("Returning to main menu")
             userChoice = False
+
+         #Print Credits
          elif userChoice == 3:
-            
             printSlow("Alexandra Paculan - Lead Documentation")
             printSlow("Carl Justin Bustamante - Lead Programmer")
             printSlow("Jethro Rae Garcia - Leader")
@@ -60,9 +66,12 @@ def userInterface():
             time.sleep(0.5)
             printSlow("Returning to Main Menu")
             userChoice = False
+
+         #Exit Program
          elif userChoice == 4:
             printSlow("Goodbye!")
-            exit()
+            exit() #exit
+         
+         #If none of the elifs reloop
          else:
             print("Enter again")
-userInterface()
