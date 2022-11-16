@@ -1,7 +1,4 @@
 
-import textwrap
-import time, threading
-import sys,time,random
 def Nursing():
     print("Nursing Exam")
     nursingScore = 0

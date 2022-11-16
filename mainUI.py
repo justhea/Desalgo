@@ -1,10 +1,8 @@
-from psychologyQuestionnaire import Psychology
-from nursingQuestionnaire import Nursing
-from pharmacologyQuestionnaire import Pharmacology
-from medTechQuestionnaire import MedicalTechnology
+#Impoprt printSlow
 import textwrap
 import time, threading
 import sys,time,random
+
 
 def printSlow(text):
     for line in textwrap.wrap(text,120):
