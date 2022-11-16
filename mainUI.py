@@ -38,7 +38,13 @@ def userInterface():
          print("4. Exit")
 
          #take user input for while loop
-         userChoice = int(input())
+         try:
+            userChoice = int(input("Enter choice: "))
+            print("")
+         except:
+            print("")
+            print("You have entered a wrong value. Please re-enter")
+            print("")
          
          #Take exam print the questionnaire
          if userChoice == 1:
